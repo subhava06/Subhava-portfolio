@@ -16,6 +16,7 @@
     "@tailwindcss/cli": "^4.1.12",
     "framer-motion": "^12.23.12",
     "maath": "^0.10.8",
+    "prop-types": "^15.8.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-parallax-tilt": "^1.7.307",

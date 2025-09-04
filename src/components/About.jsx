@@ -6,6 +6,7 @@ import {styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { text } from 'framer-motion/client';
+import { SectionWrapper } from '../hoc';
 
 const ServiceCard = ({index, title, icon}) => {
   return (
@@ -51,11 +52,11 @@ const About = () => {
 
     <div className="mt-20 flex flex-wrap gap-10">
        {services.map((service,index) =>(
-        <ServiceCard key={services.title} index={index} {...service}/>
+        <ServiceCard key={service.title} index={index} {...service}/>
        ))}
     </div>
     </>
   )
 }
 
-export default About
+export default SectionWrapper(About, "about")

@@ -5,7 +5,7 @@ const Loader = () => {
 
   return (
     <Html center>
-      <span className="canvas-loader">{progress} % loaded</span>
+      <span className="canvas-loader">{progress.toFixed(0)} % loaded</span>
       <p>
         style={{
           fontSize: 14,
@@ -13,9 +13,10 @@ const Loader = () => {
           fontWeight: 800,
           marginTop: 40,
          }}
-        {progress.toFixed(2)}%</p>
+        {progress.toFixed(2)}%
+        </p>
     </Html>
   )
 }
 
-export default Loader
+export default Loader;
