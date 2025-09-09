@@ -172,24 +172,24 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make an app as beautiful as our product, but Subhava proved me wrong.",
+    name: "Ayush Ojha",
     designation: "CFO",
-    company: "Acme Co",
+    company: "WYRD",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I've never met an app developer who truly cares about their clients' success like Subhava does.",
+    name: "Rohan Anand",
+    designation: "SDE",
+    company: "Cadence",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Subhava optimized our app, our traffic increased by 50%. We can't thank her enough!",
+    name: "Anand Tripathi",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
