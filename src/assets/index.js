@@ -32,7 +32,11 @@ import tripguide from "./tripguide.png";
 import engageuofficial_logo from "./company/engageuofficial_logo.png";
 import gfg from "./company/gfg.png";
 import gdsc from "./company/gdsc.png";
-
+import portfolioProjects from "./portfolioProjects.png";
+import ayushojha from "./ayushojha.png";
+import rohanimage from "./rohanimage.png";
+import kritarthimage from "./kritarthimage.png";
+import flutter from "./tech/flutter.png";
 export {
   logo,
   backend,
@@ -61,6 +65,11 @@ export {
   engageuofficial_logo,
   gdsc,
   gfg,
+  portfolioProjects,
+  ayushojha,
+  rohanimage,
+  kritarthimage,
+  flutter,
   tesla,
   carrent,
   jobit,

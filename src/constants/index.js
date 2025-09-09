@@ -15,12 +15,17 @@ import {
   git,
   figma,
   docker,
+  flutter,
   meta,
   starbucks,
   engageuofficial_logo,
   tesla,
   shopify,
   carrent,
+  portfolioProjects,
+  ayushojha,
+  rohanimage,
+  kritarthimage,
   jobit,
   tripguide,
   threejs,
@@ -115,6 +120,11 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+   {
+    name: "flutter",
+    icon: flutter,
+  },
+
 ];
 
 const experiences = [
@@ -123,145 +133,135 @@ const experiences = [
     company_name: "EngageU",
     icon: engageuofficial_logo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining mobile application using Flutter and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implementing responsive design and ensuring cross-platform compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Blockchain Domain Head",
+    company_name: "GDSC GCET",
     icon: gdsc,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "January 2024 - January 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the Blockchain domain at GDSC GCET, mentoring students and fostering interest in Web3 technologies.",
+    "Organized and conducted workshops on blockchain fundamentals, smart contracts, and decentralized applications (dApps).",
+    "Collaborated with cross-domain leads to integrate blockchain concepts into real-world projects and hackathons.",
+    "Guided teams in using tools like Solidity, Ethereum, and other blockchain frameworks for hands-on learning.",
+    "Promoted awareness of decentralized technologies and their applications through community events and sessions.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Student Coordinator",
+    company_name: "GeeksforGeeks GCET",
     icon: gfg,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "December 2022 - December 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Coordinated and managed student engagement activities under the GeeksforGeeks GCET chapter.",
+    "Organized coding contests, hackathons, and technical sessions to improve peer learning and problem-solving skills.",
+    "Facilitated workshops on Data Structures, Algorithms, and Competitive Programming for students.",
+    "Collaborated with the core team to bring industry-level insights and resources to the campus community.",
+    "Motivated and guided students to participate in coding challenges and contribute to open-source projects.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make an app as beautiful as our product, but Subhava proved me wrong.",
+      "Subhava is an exceptional developer who delivers high-quality work on time.",
     name: "Ayush Ojha",
     designation: "CFO",
     company: "WYRD",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: ayushojha,
   },
   {
     testimonial:
       "I've never met an app developer who truly cares about their clients' success like Subhava does.",
     name: "Rohan Anand",
-    designation: "SDE",
-    company: "Cadence",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    designation: "Student Council Head",
+    company: "GCET",
+    image: rohanimage,
   },
   {
     testimonial:
-      "After Subhava optimized our app, our traffic increased by 50%. We can't thank her enough!",
-    name: "Anand Tripathi",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Subhava is a true professional. His dedication to his work is unparalleled.",
+    name: "Kritarth",
+    designation: "Student Placement member",
+    company: "Parul University",
+    image: kritarthimage,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SafarSaathi App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "A Flutter-based app for tourist safety in North & NE India. It offers OTP login, blockchain-verified Aadhar/Passport ID, Firebase backend, Email.js notifications, Python scripts for alerts, GMap API integration, PostgreSQL DB, real-time flood/earthquake/landslide updates, safety scores, SOS, and emergency contacts. Multi-language support.",
     tags: [
       {
-        name: "react",
+        name: "app",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "AI/ML",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Blockchain",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolioProjects,
+    source_code_link: "https://github.com/subhava06/SIH_project_SafarSaathi_App",
   },
   {
-    name: "Job IT",
+    name: "HiveMind: Collect, Create, Connect",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "A modern Flutter blog app built with Clean Architecture, powered by Supabase for backend, BLoC for state management, Hive for offline storage, GetIt for dependency injection, and FpDart for functional programming—delivering fast, scalable, and maintainable content publishing.",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "BLoC",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
       },
       {
         name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolioProjects,
+    source_code_link: "https://github.com/subhava06/HiveMind-Collect-Create-Connect",
+  },
+  {
+    name: "TummyTap",
+    description:
+    "A dynamic Flutter app powered by the Provider state management system, designed to satisfy your cravings and offer personalized meal suggestions. Features like customizable meal plans, dietary filters, and a sleek UI make meal planning effortless and enjoyable.",
+    tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "provider",
+        color: "green-text-gradient",
+      },
+      {
+        name: "implicit/explicit animations",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolioProjects,
+    source_code_link: "https://github.com/subhava06/Tummy_Tap",
   },
 ];
 
