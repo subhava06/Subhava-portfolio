@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { motion } from "framer-motion";
+//import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
@@ -7,9 +7,6 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-//yjLMjud_z9tPFqycJ
-//template_qwz9fii
-//service_ld0ib9b
 
 const Contact = () => {
   const formRef = useRef();
@@ -34,12 +31,10 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    //yjLMjud_z9tPFqycJ
-//template_qwz9fii
-//service_ld0ib9b
-
     emailjs
       .send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         'service_ld0ib9b',
         'template_qwz9fii',
         
@@ -50,7 +45,7 @@ const Contact = () => {
           to_email: "dev.subhava@gmail.com",
           message: form.message,
         },
-        'yjLMjud_z9tPFqycJ',
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
         
       )
       .then(
