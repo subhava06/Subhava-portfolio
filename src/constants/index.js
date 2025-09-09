@@ -17,12 +17,15 @@ import {
   docker,
   meta,
   starbucks,
+  engageuofficial_logo,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  gdsc,
+  gfg,
 } from "../assets";
 
 export const navLinks = [
@@ -116,9 +119,9 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Flutter and FlutterFlow Developer",
+    company_name: "EngageU",
+    icon: engageuofficial_logo,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -131,7 +134,7 @@ const experiences = [
   {
     title: "React Native Developer",
     company_name: "Tesla",
-    icon: tesla,
+    icon: gdsc,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -144,7 +147,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Shopify",
-    icon: shopify,
+    icon: gfg,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [

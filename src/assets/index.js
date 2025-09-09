@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import engageuofficial_logo from "./company/engageuofficial_logo.png";
+import gfg from "./company/gfg.png";
+import gdsc from "./company/gdsc.png";
 
 export {
   logo,
@@ -55,6 +58,9 @@ export {
   meta,
   shopify,
   starbucks,
+  engageuofficial_logo,
+  gdsc,
+  gfg,
   tesla,
   carrent,
   jobit,
