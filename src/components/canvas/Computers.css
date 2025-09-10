@@ -1,0 +1,48 @@
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  animation: fadeIn 1.2s ease-in;
+}
+
+.resume-title {
+  color: #f272c8;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  animation: floatTitle 3s ease-in-out infinite alternate;
+}
+
+.resume-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #f272c8;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+  animation: floatButton 3s ease-in-out infinite alternate;
+}
+
+.resume-button:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatButton {
+  from { transform: translateY(0); }
+  to { transform: translateY(-8px); }
+}
+
+@keyframes floatTitle {
+  from { transform: translateY(0); }
+  to { transform: translateY(-5px); }
+}
