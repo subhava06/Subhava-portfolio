@@ -263,6 +263,27 @@ const projects = [
     image: portfolioProjects,
     source_code_link: "https://github.com/subhava06/Tummy_Tap",
   },
+  {
+    name: "StyleNet: Fashion-MNIST Classifier",
+    description:
+    "Developed an end-to-end image classification pipeline on Fashion-MNIST with ~90% accuracy.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CNN",
+        color: "green-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolioProjects,
+    source_code_link: "https://github.com/subhava06/fashion-ecommerce-image-classifier",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
