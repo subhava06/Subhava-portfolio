@@ -29,7 +29,7 @@ style={{
   }}    >
       <h2 className="resume-title">Check out my Resume</h2>
       <a
-        href="/subhava_resume.pdf" // Ensure your PDF is in public folder
+        href="/resumeSubhava.pdf" // Ensure your PDF is in public folder
         target="_blank"
         rel="noopener noreferrer"
         className="resume-button"
